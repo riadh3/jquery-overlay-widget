@@ -1,0 +1,78 @@
+body{
+    padding: 40px;
+    /* display: flex;
+    flex-direction: column; */
+
+}
+.overl-click-1{
+    margin-right: 20px;
+}
+.overl-veil{
+    width: 100%;
+    height: 100%;
+    background: #cecece;
+    z-index: 9;
+    position: fixed;
+    display: none;
+}
+.overlay-container{
+    padding: 17px;
+    width: 400px;
+    height: 300px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 9;
+    border-radius: 10px;
+    /* align-self: center */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+
+}
+.overlay-container .close-over{
+    color: #bd2424;
+    cursor: pointer;
+}
+.overlay-container h1{
+    color: #4a4a4a;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.overlay-container p{
+    color: #868686
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
